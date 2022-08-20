@@ -31,6 +31,20 @@
     .header__nav-list{
         margin-top: 20px;
     }
+    .footer__content {
+        flex-wrap: wrap;
+    }
+    .footer__price {
+        padding-bottom: 30px;
+    }
+    .main__box-end {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 
@@ -52,6 +66,16 @@
         justify-content: center;
         padding: 60px;
     }
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main_boxx {
+        padding: 65px 0 0 20px;
+    }
+    .main_boxx-1 {
+        padding: 65px 0 0 20px;
+    }
+    
 
     
 }
@@ -83,5 +107,14 @@
     }
     .header__poster-link{
         margin-left: 20px;
+    }
+    .main__title{
+        text-align: center;
+    }
+    .text__menu {
+        text-align: center;
+    }
+    .main__title-2 {
+        text-align: center;
     }
 }
